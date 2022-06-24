@@ -25,7 +25,7 @@
     trending = true;
     movie_grid.innerHTML = ``;
     pages = 1
-    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=7c472c0bc17cd2978d3aaa6fa8ea2dbf&language=en-US&page=${pages}`).then(r=>r.json()).then(res=>res.results).then(data => {
+    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=U716Yb2TeKYJNmbP76FrzFnpy2VITKR8&language=en-US&page=${pages}`).then(r=>r.json()).then(res=>res.results).then(data => {
         pages = 1
         populateGrid(data)
         more.classList.toggle("load", false)
@@ -42,7 +42,7 @@
 })
 
 async function getTrending() {
-    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=7c472c0bc17cd2978d3aaa6fa8ea2dbf&language=en-US&page=${pages}`).then(r=>r.json()).then(res=>res.results).then(data => {
+    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=U716Yb2TeKYJNmbP76FrzFnpy2VITKR8&language=en-US&page=${pages}`).then(r=>r.json()).then(res=>res.results).then(data => {
         populateGrid(data)
     })
 }
@@ -109,7 +109,7 @@ async function getResults(str) {
 
   window.onload = () => {
     pages = 1
-    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=7c472c0bc17cd2978d3aaa6fa8ea2dbf&language=en-US&page=${pages}`).then(r=>r.json()).then(res=>res.results).then(data => {
+    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=U716Yb2TeKYJNmbP76FrzFnpy2VITKR8&language=en-US&page=${pages}`).then(r=>r.json()).then(res=>res.results).then(data => {
         pages = 1
         populateGrid(data)
         more.classList.toggle("load", false)
