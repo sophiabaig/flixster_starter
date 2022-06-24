@@ -54,16 +54,20 @@ Yes, the topics discussed in my labs prepared me to complete the assignment. The
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-  I would have fixed my searchbar and how that worked and I would have more features, such as showing the videos and deploying my github page. 
+  I would have fixed my search bar functionality and I would have more features if I had thought of any new ones, such as showing the trailers and deploying my github page. 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-  I had a lot of tech issues while doing this project, including getting locked out of my internal apps/computer and not being able to create an API key for a long time. 
+  I had a lot of tech issues while doing this project, including getting locked out of my internal apps/computer and not being able to create an API key for a long time. If I hadn't run
+  into these issues I think I would have had a lot more time to work on this project and be more confident with the demo.
 
 ### Open-source libraries used
 
 - Add any links to open-source libraries used in your project.
+  n/a
 
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
+  I worked with a lot peers throughout this project, especially because I fell pretty behind the first week due to meetings and tech issues stated above!
